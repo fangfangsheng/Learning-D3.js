@@ -1,4 +1,4 @@
-# Learning-D3.js
+# Visualization with d3.js
 
 1. bar chart
    - basic bar chart
