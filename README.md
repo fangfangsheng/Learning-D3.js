@@ -41,13 +41,13 @@ npm ERR!
 npm ERR! If you believe this might be a permissions issue, please double-check the
 npm ERR! permissions of the file and its containing directories, or try running
 npm ERR! the command again as root/Administrator.
-
+```
 
 The reason is I do not have the required privileges to install globally. I could either try installing with sudo or (recommended) move NPM\'s default directory to one which I have read/write permissions on:
 
 	1. Create directory in your home directory, say `~/.npm-global`.
-	2. Run `npm config set prefix '~/.npm-global'`
-	3. Update your PATH: `export PATH=~/.npm-global/bin:$PATH`
+	2. Run `npm config set prefix '~/.npm-global'`.
+	3. Update your PATH: `export PATH=~/.npm-global/bin:$PATH`.
   4. Run `npm install -g @vue/cli`
 
 
